@@ -157,7 +157,7 @@ sup {
 	/* FOR MENU */
 	background: var(
 			--ubmh-logo,
-			url('https://ubmh.wikidot.com/local--files/admin:theme/ubmh.webp')
+			url('./image/logo.webp')
 		)
 		10px 48px no-repeat;
 	background-size: 80px 80px;
@@ -305,7 +305,7 @@ h6 {
 }
 
 div#container-wrap {
-	background: url('https://ubmh.wikidot.com/local--files/admin:theme/blackground.webp')
+	background: url('./images/blackground.webp')
 		top left repeat-x;
 }
 
