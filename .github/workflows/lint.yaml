@@ -1,0 +1,30 @@
+name: Lint
+
+on:
+  push:
+    paths:
+      - 'css/**'
+      - '.github/workflows/lint.yaml'
+
+jobs:
+  lint:
+    name: Check CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Stylelint
+        run: pnpm run stylelint
+
+      - name: Prettier
+        run: pnpm run prettier
