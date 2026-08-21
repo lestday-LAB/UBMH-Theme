@@ -3,7 +3,7 @@ name: Lint
 on:
   push:
     paths:
-      - 'css/**'
+      - 'style/**'
       - '.github/workflows/lint.yaml'
 
 jobs:

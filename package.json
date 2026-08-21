@@ -13,10 +13,10 @@
   "scripts": {
     "build": "./build.sh",
     "clean": "rm -rf dist",
-    "minify": "minify css/ubmh-impact.css > dist/css/ubmh-impact.min.css && minify css/ubmh-sandbox.css > dist/css/ubmh-sandbox.min.css",
-    "stylelint": "stylelint css/*.css",
-    "stylelint:fix": "stylelint --fix css/*.css",
-    "prettier": "prettier -c css/*.css",
-    "prettier:fix": "prettier -w css/*.css"
+    "minify": "minify style/ubmh-impact.css > dist/style/ubmh-impact.min.css && minify style/ubmh-sandbox.css > dist/style/ubmh-sandbox.min.css",
+    "stylelint": "stylelint style/*.css",
+    "stylelint:fix": "stylelint --fix style/*.css",
+    "prettier": "prettier -c style/*.css",
+    "prettier:fix": "prettier -w style/*.css"
   }
 }

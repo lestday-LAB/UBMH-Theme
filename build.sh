@@ -12,8 +12,8 @@ mkdir -p dist/images
 cp images/* dist/images
 
 # Copy and minify CSS
-mkdir -p dist/css
-cp css/ubmh-impact.css css/ubmh-sandbox.css dist/css
+mkdir -p dist/style
+cp style/ubmh-impact.css style/ubmh-sandbox.css dist/style
 pnpm run minify
-[[ -f dist/css/ubmh-impact.min.css ]]
-[[ -f dist/css/ubmh-sandbox.min.css ]]
+[[ -f dist/style/ubmh-impact.min.css ]]
+[[ -f dist/style/ubmh-sandbox.min.css ]]
