@@ -4,11 +4,12 @@ set -eu
 # For use in the GitHub workflow process.
 # Run in the root of the repository to produce a dist/ directory.
 
-# Create directory structure
-mkdir -p dist/pages
-
 # Copy html files
-cp -a pages/* dist/pages/
+cp -a pages/* dist/
+
+# Copy other files
+mkdir -p dist/images
+cp images/* dist/images
 
 # Copy and minify CSS
 mkdir -p dist/css
