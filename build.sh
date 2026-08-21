@@ -15,6 +15,10 @@ cp -a pages/* dist/
 mkdir -p dist/images
 cp images/* dist/images
 
+# Copy CNAME so GitHub Pages preserves the custom domain
+# after peaceiris/actions-gh-pages resets the gh-pages branch.
+cp CNAME dist/CNAME
+
 # Copy and minify CSS
 mkdir -p dist/style
 cp style/ubmh-impact.css style/ubmh-sandbox.css dist/style
