@@ -155,7 +155,7 @@ sup {
 	height: 140px;
 
 	/* FOR MENU */
-	background: var(--ubmh-logo, url('../../image/logo.webp')) 10px 48px no-repeat;
+	background: var(--ubmh-logo, url('../../images/logo.webp')) 10px 48px no-repeat;
 	background-size: 80px 80px;
 	position: relative;
 	z-index: 10;
