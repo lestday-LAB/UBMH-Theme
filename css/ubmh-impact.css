@@ -923,8 +923,7 @@ div.sexy-box div.image-container img {
 
 .thread-container .post .head {
 	padding: 0.5em 1em;
-	background-color: #eee;
-	background: linear-gradient(to right, #eee, #eeecec);
+	background: #eee linear-gradient(to right, #eee, #eeecec);
 	box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.15);
 	border-radius: 5px 5px 0 0;
 }
