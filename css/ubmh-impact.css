@@ -885,7 +885,7 @@ div.sexy-box div.image-container img {
 .inline-diff br + ins::before,
 .inline-diff br + del::before {
 	display: inline-block;
-	font-family: FontAwesome;
+	font-family: FontAwesome, sans-serif;
 	font-size: 14px;
 	line-height: 1;
 	font-style: normal;
@@ -1680,7 +1680,7 @@ table {
 		top: 0.5em;
 		left: 0.5em;
 		z-index: 15;
-		font-family: 'Nanum Gothic', san-serif;
+		font-family: 'Nanum Gothic', sans-serif;
 		font-size: 30px;
 		font-weight: 700;
 		width: 30px;
