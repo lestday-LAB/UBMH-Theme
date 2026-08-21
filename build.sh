@@ -4,6 +4,10 @@ set -eu
 # For use in the GitHub workflow process.
 # Run in the root of the repository to produce a dist/ directory.
 
+# Reset dist/ from any previous run
+rm -rf dist
+mkdir -p dist
+
 # Copy html files
 cp -a pages/* dist/
 
