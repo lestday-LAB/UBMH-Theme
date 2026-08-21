@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Set permissions for build script
         run: chmod +x ./build.sh

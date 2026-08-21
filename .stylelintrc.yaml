@@ -35,3 +35,12 @@ rules:
   # Disable this rule for now, it produces hundreds of incidents
   # and would require significant refactoring to resolve.
   no-descending-specificity: null
+
+  # Disabled: Sigma-9 derived themes routinely have repeated selector
+  # blocks at different cascade layers by design; merging would change
+  # rendering order.
+  no-duplicate-selectors: null
+
+  # Disabled: a few legacy non-standard properties (e.g. border-round)
+  # are present in the inherited Sigma-9 base.
+  property-no-unknown: null
