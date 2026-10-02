@@ -152,7 +152,8 @@ sup {
 	z-index: 10;
 	padding-bottom: 22px;
 	/* FOR MENU */
-	background: var(--ubmh-logo, url('../../images/logo.webp')) 10px 48px no-repeat;
+	background: var(--ubmh-logo, url('../../images/logo.webp')) 10px 48px
+		no-repeat;
 	background-size: 80px 80px;
 	position: relative;
 	z-index: 10;
@@ -956,6 +957,25 @@ div.sexy-box div.image-container img {
 .thread-container .post .content *[style*=position],
 .thread-container .post .signature *[style*=position] {
 	position: static !important;
+}
+
+.thread-container .post .content *:not(img)[style*='url(' i],
+.thread-container .post .content *:not(img)[style*='image-set' i],
+.thread-container .post .content *:not(img)[style*='cross-fade' i],
+.thread-container .post .content *:not(img)[style*='element(' i],
+.thread-container .post .content *:not(img)[style*='src(' i],
+.thread-container .post .content *:not(img)[style*='\\'],
+.thread-container .post .signature *[style*='url(' i],
+.thread-container .post .signature *[style*='image-set' i],
+.thread-container .post .signature *[style*='cross-fade' i],
+.thread-container .post .signature *[style*='element(' i],
+.thread-container .post .signature *[style*='src(' i],
+.thread-container .post .signature *[style*='\\'] {
+	background-image: none !important;
+	border-image: none !important;
+	list-style-image: none !important;
+	mask-image: none !important;
+	-webkit-mask-image: none !important;
 }
 
 .thread-container .post .content *:not(img)[style*="url(" i],
