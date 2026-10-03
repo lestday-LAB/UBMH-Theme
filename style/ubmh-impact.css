@@ -485,7 +485,7 @@ div#container-wrap {
 }
 
 #side-bar .collapsible-block-folded {
-	background: url("https://scp-wiki-cn.wikidot.com/local--files/nav:side/expand.png")
+	background: url('https://scp-wiki-cn.wikidot.com/local--files/nav:side/expand.png')
 		0 2px no-repeat;
 }
 
@@ -711,7 +711,7 @@ div.sexy-box div.image-container img {
 .content-panel .panel-body {
 	padding: 5px 10px;
 	background: #fff9f0
-		url("https://scp-wiki-cn.wikidot.com/local--files/admin:theme/panel-bg-gradient-reverse.png")
+		url('https://scp-wiki-cn.wikidot.com/local--files/admin:theme/panel-bg-gradient-reverse.png')
 		bottom repeat-x;
 	height: 164px;
 	overflow-y: hidden;
@@ -1230,7 +1230,7 @@ div.curved {
 		font-family: monospace;
 		font-style: normal;
 		font-weight: normal;
-		background-image: url("https://scp-wiki-cn.wikidot.com/local--files/component%3Atheme/dot.png"),
+		background-image: url('https://scp-wiki-cn.wikidot.com/local--files/component%3Atheme/dot.png'),
 			none;
 		background-repeat: repeat-x;
 		padding: 0.5em 0 0;
@@ -1247,7 +1247,7 @@ div.curved {
 		font-family: monospace;
 		font-style: normal;
 		font-weight: normal;
-		background-image: url("https://scp-wiki-cn.wikidot.com/local--files/component%3Atheme/dot.png"),
+		background-image: url('https://scp-wiki-cn.wikidot.com/local--files/component%3Atheme/dot.png'),
 			none;
 		background-repeat: repeat-x;
 		padding: 0.5em 0 0;
